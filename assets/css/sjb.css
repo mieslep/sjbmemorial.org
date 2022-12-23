@@ -1,0 +1,60 @@
+:root {
+  --bs-primary: #002B5C;
+  --bs-primary-rgb: 0,43,92;
+  --bs-secondary: #D31145;
+  --bs-secondary-rgb: 211,17,69;
+  font-family: 'Open Sans', sans-serif;
+  --color-tertiary: #B9975B;
+  --color-tertiary-rgb: 185,151,91;
+}
+
+.btn-primary {
+  --bs-btn-bg: #002B5C;
+  --bs-btn-border-color: #002B5C;
+  --bs-btn-hover-bg: #173577;
+  --bs-btn-active-bg: #D31145;
+  --bs-btn-active-border-color: #7d0008;
+}
+
+.top-heading {
+  background: var(--bs-secondary);
+  color: var(--bs-gray-100);
+  position: sticky;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.01rem;
+  z-index: 100;
+}
+
+.section-heading {
+  background: var(--color-tertiary);
+  color: var(--bs-gray-100);
+  position: sticky;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.01rem;
+  z-index: 10;
+}
+
+.main-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.top-photo {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.speech {
+  margin-bottom: 2rem;
+  text-align: justify;
+  color: var(--bs-primary);
+}
+
